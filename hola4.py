@@ -6,7 +6,7 @@ class Family:
 
 
 print("MOTHER'S SIDE OF FAMILY: ")
-class motherside(Family):
+class Motherside(Family):
     pass
 x = ('Great Grandmother: unknown, Great GrandFather: uknown', 'Grandma: Vero, Grandad: Lenox', 'Mother: Nora')
 print(x)
@@ -14,7 +14,7 @@ print(x)
 print('\n')
 
 print("FATHER'S SIDE OF FAMILY: ")
-class fatherside(Family):
+class Fatherside(Family):
     pass
 x = ('Great Grandmother: unknown, Great GrandFather: uknown', 'Grandma: unknown, Grandad: John', 'Father: Danny')
 print(x)
