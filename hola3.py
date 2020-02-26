@@ -45,7 +45,6 @@ while True:
             print('Computer wins')
         elif com_choice == 2:
             print('You win')
-            
     
 
     ans = input('Do you wish to play again? (Y/N)')
