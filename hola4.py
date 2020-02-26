@@ -2,11 +2,9 @@
 class Family:
     '''creating a family tree'''
     def __init__(self, GreatGrandParents, GrandParents, Parent):
-        self.GGP = GreatGrandParents
-        self.GP = GrandParents
-        self.P = Parent
+        pass
 
-  
+
 print("MOTHER'S SIDE OF FAMILY: ")
 class motherside(Family):
     pass
@@ -22,6 +20,7 @@ x = ('Great Grandmother: unknown, Great GrandFather: uknown', 'Grandma: unknown,
 print(x)
 
 print('\n')
+
 
 print('MY IMMEDIATE FAMILY: ')
 class ImmediateFamily:
