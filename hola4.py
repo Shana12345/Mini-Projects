@@ -1,26 +1,24 @@
 #!/usr/bin/env python3.8
 class Family:
     '''creating a family tree'''
-    def __init__(self, GreatGrandParents, GrandParents, Parents, Children, ChildOfChilden):
+    def __init__(self, GreatGrandParents, GrandParents, Parent):
         self.GGP = GreatGrandParents
         self.GP = GrandParents
-        self.P = Parents
-        self.C = Children
-        self.COC = ChildOfChilden
+        self.P = Parent
 
   
-print("THE FIRST BORNS ON MOTHER'S SIDE: ")
+print("MOTHER'S SIDE OF FAMILY: ")
 class motherside(Family):
     pass
-x = ('Great Grandmother: unknown', 'Grandma: Vero', 'Mother: Nora','Sister: Asher', 'Niece: Kayla')
+x = ('Great Grandmother: unknown, Great GrandFather: uknown', 'Grandma: Vero, Grandad: Lenox', 'Mother: Nora')
 print(x)
 
 print('\n')
 
-print("THE FIRST BORNS ON FATHER'S SIDE: ")
+print("FATHER'S SIDE OF FAMILY: ")
 class fatherside(Family):
     pass
-x = ('Great Grandfather: unknown', 'Grandfather: James', 'Father: Bond','Sister: Beyonce', 'Niece: N/A')
+x = ('Great Grandmother: unknown, Great GrandFather: uknown', 'Grandma: unknown, Grandad: John', 'Father: Danny')
 print(x)
 
 print('\n')
