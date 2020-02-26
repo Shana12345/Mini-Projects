@@ -1,7 +1,5 @@
 #!/usr/bin/env python3.8
 class Family:
-    sideOfMother = ''
-    sideOfFather = ''
     '''creating a family tree'''
     def __init__(self, GreatGrandParents, GrandParents, Parents, Children, ChildOfChilden):
         self.GGP = GreatGrandParents
